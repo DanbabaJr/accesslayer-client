@@ -187,5 +187,4 @@ const KeySimulationTool: React.FC<KeySimulationToolProps> = ({
 };
 
 export default KeySimulationTool;
-export default KeySimulationTool;
 
