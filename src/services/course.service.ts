@@ -53,6 +53,11 @@ export interface Course {
 	 * Applied to sells within the first 7 days after key creation.
 	 */
 	launchPenaltyBps?: number;
+	/**
+	 * Proposal quorum threshold in basis points (100–5000 = 1%–50%).
+	 * Minimum holder participation required for a governance proposal to pass.
+	 */
+	quorumBps?: number;
 	/** Optional co-creator wallet configured for this creator key. */
 	coCreatorAddress?: string;
 	/** Co-creator revenue share in basis points. */
