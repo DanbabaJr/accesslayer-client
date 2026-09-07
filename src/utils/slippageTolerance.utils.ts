@@ -130,7 +130,6 @@ export function computeSlippageBounds(
 				: null,
 	};
 }
-}
 
 export type TradeSide = 'buy' | 'sell';
 

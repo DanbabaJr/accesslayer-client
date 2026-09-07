@@ -133,5 +133,4 @@ describe('slippageTolerance.utils', () => {
 		});
 	});
 });
-});
 
